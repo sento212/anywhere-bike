@@ -1,0 +1,148 @@
+.list-item {
+  background-color: #2f323b;
+  width: 80%;
+  display: flex;
+  padding-left: 8px;
+  font-size: 14px;
+  color: aliceblue;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin: 18px 18px;
+  border-radius: 10px;
+  transition: 0.5s, color 1s;
+  border: none;
+}
+
+.juduloy {
+  user-select: none;
+}
+
+.list-item:hover {
+  color: rgb(29, 36, 43);
+  background-color: #fed000;
+}
+
+.list-item.selected {
+  color: rgb(29, 36, 43);
+  background-color: #fed000;
+}
+
+.profil {
+  color: #e2ddde;
+}
+
+.side,
+.sides {
+  background-color: #2f323b;
+  width: 200px;
+}
+
+.side-icon {
+  padding-left: 12px;
+  padding-right: 10px;
+  position: relative;
+}
+
+.icon-ni {
+  position: absolute;
+  left: 0px;
+  top: 3.5px;
+}
+
+.top-head {
+  background-color: #fed000;
+}
+
+.head-icon {
+  font-size: 14px;
+  padding: 0 5px 0 5px;
+  margin: 5px 20px 5px 0;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  transition: 0.5s, color 1s;
+  background-color: #fed000;
+  border: none;
+}
+.head-icon:hover {
+  color: aliceblue;
+  background-color: #2f323b;
+}
+.line {
+  border: 1px solid rgb(193, 193, 193);
+  width: 180px;
+}
+
+.logo {
+  width: 42px;
+  height: 42px;
+}
+
+.side.hide,
+.sides.hide {
+  background-color: #2f323b;
+  width: 60px;
+}
+
+.side.shide,
+.sides.shide {
+  background-color: #2f323b;
+  width: 0px;
+}
+
+.side.hide .list-item {
+  background-color: #2f323b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: aliceblue;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  transition: 0.5s, color 1s;
+}
+
+.side.hide .list-item:hover {
+  color: rgb(29, 36, 43);
+  background-color: #fed000;
+}
+
+.side.hide .list-item.selected {
+  color: rgb(29, 36, 43);
+  background-color: #fed000;
+}
+
+.side.hide .side-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 10px;
+  height: 10px;
+}
+
+.side.hide .icon-ni {
+  position: absolute;
+  left: 1px;
+  top: -2px;
+}
+
+.side.hide .line {
+  border: 1px solid rgb(193, 193, 193);
+  width: 45px;
+}
+
+.exit-mark {
+  color: aliceblue;
+  padding-left: 9px;
+  padding-top: 5px;
+  display: none;
+}
+
+#list_quotation th,
+#list_quotation td,
+#list_quotation {
+  border-width: 2px;
+  border-style: solid;
+}
